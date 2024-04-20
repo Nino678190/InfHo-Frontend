@@ -442,7 +442,15 @@ const theme = createTheme({
           fontSize: 123,
         },
       },
-    }
+    },
+    MuiListItemText: {
+      styleOverrides: {
+        root: {
+          fontFamily: "Mundial",
+          color: "white",
+        },
+      },
+    },
   },
 });
 
