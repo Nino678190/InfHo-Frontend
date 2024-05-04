@@ -70,3 +70,14 @@ input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
     color: white;
 }
+
+.dashedBG {
+  background: repeating-linear-gradient(
+      -55deg,
+      #ffffff11,
+      #ffffff11 5px,
+      transparent 5px,
+      transparent 10px
+   );
+
+}

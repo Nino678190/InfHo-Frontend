@@ -451,6 +451,18 @@ const theme = createTheme({
         },
       },
     },
+    MuiListItem: {
+      styleOverrides: {
+        root: {
+          transition: "0.3s",
+          border: "1px solid " + colors.darkBGColor,
+          "&:hover": {
+            backgroundColor: colors.lightBG,
+            border: "1px solid " + colors.light,
+          },
+        },
+      },
+    },
   },
 });
 
